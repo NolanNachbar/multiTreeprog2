@@ -12,6 +12,14 @@ class binarySearchTree
     binaryNode<T> * root2;
     binaryNode<T> * root3;
     binaryNode<T> * root4;
+    binaryNode<T> * root5;
+    binaryNode<T> * root6;
+    binaryNode<T> * root7;
+    binaryNode<T> * root8;
+    binaryNode<T> * root9;
+    binaryNode<T> * root10;
+    binaryNode<T> * root11;
+    binaryNode<T> * root12;
 
 
 
@@ -56,49 +64,49 @@ class binarySearchTree
     void insert (T item)
     {
         if(item[0] == 'e')
-             insert(item, root4);
+             insert(item, root1);
         else if(item[0] == 't')
-             insert(item, root1);
+             insert(item, root2);
         else if(item[0] == 'a')
-             insert(item, root2);
+             insert(item, root3);
         else if(item[0] == 'o')
-             insert(item, root3);
+             insert(item, root4);
         else if(item[0] == 'i')
-             insert(item, root1);
+             insert(item, root5);
         else if(item[0] == 'n')
-             insert(item, root2);
+             insert(item, root6);
         else if(item[0] == 's')
-             insert(item, root3);
+             insert(item, root7);
         else if(item[0] == 'r')
-             insert(item, root1);
+             insert(item, root8);
         else if(item[0] == 'h')
-             insert(item, root2);
+             insert(item, root9);
         else if(item[0] == 'l')
-             insert(item, root3);
+             insert(item, root10);
         else if(item[0] == 'd')
-             insert(item, root1);
+             insert(item, root11);
         else if(item[0] == 'c')
-             insert(item, root2);
+             insert(item, root1);
         else if(item[0] == 'u')
-             insert(item, root3);
+             insert(item, root2);
         else if(item[0] == 'm')
-             insert(item, root1);
+             insert(item, root3);
         else if(item[0] == 'f')
-             insert(item, root2);
+             insert(item, root4);
         else if(item[0] == 'p')
-             insert(item, root3);
+             insert(item, root5);
         else if(item[0] == 'g')
-             insert(item, root1);
+             insert(item, root6);
         else if(item[0] == 'u')
-             insert(item, root2);
+             insert(item, root7);
         else if(item[0] == 'y')
-             insert(item, root3);
+             insert(item, root8);
         else if(item[0] == 'b')
-             insert(item, root1);
+             insert(item, root9);
         else if(item[0] == 'v')
-             insert(item, root2);
+             insert(item, root10);
         else if(item[0] == 'k')
-             insert(item, root3);
+             insert(item, root11);
         else if(item[0] == 'x')
              insert(item, root1);
         else if(item[0] == 'j')
@@ -106,67 +114,66 @@ class binarySearchTree
         else if(item[0] == 'q')
              insert(item, root3);
         else if(item[0] == 'z')
-             insert(item, root1);
+             insert(item, root4);
         else 
-            insert(item, root4);
+            insert(item, root12);
     }
     binaryNode<T> * find (T item, long long int & tempComp)
     {
-
         if(item[0] == 'e')
-             return find(item, tempComp, root4);
+            return find(item, tempComp, root1);
         else if(item[0] == 't')
-             return find(item, tempComp, root1);
+            return find(item, tempComp, root2);
         else if(item[0] == 'a')
-             return find(item, tempComp, root2);
+            return find(item, tempComp, root3);
         else if(item[0] == 'o')
-             return find(item, tempComp, root3);
-        else if(item[0] == 'i')
-             return find(item, tempComp, root1);
-        else if(item[0] == 'n')
-             return find(item, tempComp, root2);
-        else if(item[0] == 's')
-             return find(item, tempComp, root3);
-        else if(item[0] == 'r')
-             return find(item, tempComp, root1);
-        else if(item[0] == 'h')
-             return find(item, tempComp, root2);
-        else if(item[0] == 'l')
-             return find(item, tempComp, root3);
-        else if(item[0] == 'd')
-             return find(item, tempComp, root1);
-        else if(item[0] == 'c')
-             return find(item, tempComp, root2);
-        else if(item[0] == 'u')
-             return find(item, tempComp, root3);
-        else if(item[0] == 'm')
-             return find(item, tempComp, root1);
-        else if(item[0] == 'f')
-             return find(item, tempComp, root2);
-        else if(item[0] == 'p')
-             return find(item, tempComp, root3);
-        else if(item[0] == 'g')
-             return find(item, tempComp, root1);
-        else if(item[0] == 'u')
-             return find(item, tempComp, root2);
-        else if(item[0] == 'y')
-             return find(item, tempComp, root3);
-        else if(item[0] == 'b')
-             return find(item, tempComp, root1);
-        else if(item[0] == 'v')
-             return find(item, tempComp, root2);
-        else if(item[0] == 'k')
-             return find(item, tempComp, root3);
-        else if(item[0] == 'x')
-             return find(item, tempComp, root1);
-        else if(item[0] == 'j')
-             return find(item, tempComp, root2);
-        else if(item[0] == 'q')
-             return find(item, tempComp, root3);
-        else if(item[0] == 'z')
-             return find(item, tempComp, root1);
-        else 
             return find(item, tempComp, root4);
+        else if(item[0] == 'i')
+            return find(item, tempComp, root5);
+        else if(item[0] == 'n')
+            return find(item, tempComp, root6);
+        else if(item[0] == 's')
+            return find(item, tempComp, root7);
+        else if(item[0] == 'r')
+            return find(item, tempComp, root8);
+        else if(item[0] == 'h')
+            return find(item, tempComp, root9);
+        else if(item[0] == 'l')
+            return find(item, tempComp, root10);
+        else if(item[0] == 'd')
+            return find(item, tempComp, root11);
+        else if(item[0] == 'c')
+            return find(item, tempComp, root1);
+        else if(item[0] == 'u')
+            return find(item, tempComp, root2);
+        else if(item[0] == 'm')
+            return find(item, tempComp, root3);
+        else if(item[0] == 'f')
+            return find(item, tempComp, root4);
+        else if(item[0] == 'p')
+            return find(item, tempComp, root5);
+        else if(item[0] == 'g')
+            return find(item, tempComp, root6);
+        else if(item[0] == 'u')
+            return find(item, tempComp, root7);
+        else if(item[0] == 'y')
+            return find(item, tempComp, root8);
+        else if(item[0] == 'b')
+            return find(item, tempComp, root9);
+        else if(item[0] == 'v')
+            return find(item, tempComp, root10);
+        else if(item[0] == 'k')
+            return find(item, tempComp, root11);
+        else if(item[0] == 'x')
+            return find(item, tempComp, root1);
+        else if(item[0] == 'j')
+            return find(item, tempComp, root2);
+        else if(item[0] == 'q')
+            return find(item, tempComp, root3);
+        else if(item[0] == 'z')
+            return find(item, tempComp, root4);
+        else 
+           return find(item, tempComp, root12);
     }
     bool isEmpty()
     {
@@ -237,5 +244,7 @@ class binarySearchTree
 };
 
 #endif
+
+
 
 
